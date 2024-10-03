@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Mastery</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">HTML & CSS Mastery</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#course">Course</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero lg">
+        <h1>Master HTML & CSS</h1>
+        <p>Learn the fundamentals with hands-on tutorials and videos</p>
+        <a href="#course" class="cta-button">Start Learning Today!</a>
+      </section>
+
+      <section id="course" class="course-section">
+        <h2>Course Content</h2>
+        <div class="course-grid">
+          <div class="course-card" data-video-id="h3fTplgkwJ8">
+            <img src="./day1.jpg" alt="HTML Basics" class="thumbnail" />
+            <h3>Intro to HTML-Css Course</h3>
+            <p>Familiar with origin of HTML and Css Languages.</p>
+            <span class="duration">22:25</span>
+          </div>
+          <div class="course-card" data-video-id="x5g0t4V4SNg">
+            <img src="./day2.jpg" alt="CSS Fundamentals" class="thumbnail" />
+            <h3>Familiar with Basic Setup</h3>
+            <p>Get to know how to do basic Html-Css setup.</p>
+            <span class="duration">20:45</span>
+          </div>
+          <div class="course-card" data-video-id="zM1B1bHcOvI">
+            <img src="./day3.jpg" alt="CSS Layout" class="thumbnail" />
+            <h3>Solving Beginner's Questions</h3>
+            <p>
+              Answering Beginners Common questions and solving their queries.
+            </p>
+            <span class="duration">25:15</span>
+          </div>
+          <div class="course-card" data-video-id="V5bQQoDApig">
+            <img src="./day4.jpg" alt="Responsive Design" class="thumbnail" />
+            <h3>Css Selectors and Colors</h3>
+            <p>
+              Understanding Css selectors & selecting elements and basic color
+              properties.
+            </p>
+            <span class="duration">30:00</span>
+          </div>
+          <div class="course-card" data-video-id="MY2rViAnTW0">
+            <img src="./day5.jpg" alt="CSS Animations" class="thumbnail" />
+            <h3>Html Headings</h3>
+            <p>
+              Understanding basic html headings and background-color property.
+            </p>
+            <span class="duration">22:30</span>
+          </div>
+          <div class="course-card" data-video-id="Kpsv4e_GIQs">
+            <img src="./day6.jpg" alt="Advanced CSS" class="thumbnail" />
+            <h3>Box Model - Div</h3>
+            <p>
+              Understanding Css box-model with all box properties and div
+              element.
+            </p>
+            <span class="duration">28:45</span>
+          </div>
+          <div class="course-card hidden" data-video-id="6QLe3Qzpwfs">
+            <img src="./day7.jpg" alt="CSS Frameworks" class="thumbnail" />
+            <h3>Html - Links and Images</h3>
+            <p>Understanding Html Anchor Element and Img Element.</p>
+            <span class="duration">35:00</span>
+          </div>
+          <div class="course-card hidden" data-video-id="daAvJ5NlASQ">
+            <img src="./day8.jpg" alt="Web Accessibility" class="thumbnail" />
+            <h3>Css - Parent Child Relationship</h3>
+            <p>
+              Understanding relationship parent elements and their child
+              elements.
+            </p>
+            <span class="duration">26:15</span>
+          </div>
+          <div class="course-card hidden" data-video-id="LbLM3ICL1k0">
+            <img src="./day9.jpg" alt="Web Accessibility" class="thumbnail" />
+            <h3>Css - Background Properties</h3>
+            <p>
+              Understanding Css Background properties and how to use it
+              collectively.
+            </p>
+            <span class="duration">26:15</span>
+          </div>
+
+          <div class="course-card hidden" data-video-id="IQUlRgP-hbw">
+            <img src="./day10.jpg" alt="CSS Frameworks" class="thumbnail" />
+            <h3>Css Colors and Gradients</h3>
+            <p>Understanding css colors websites and gradients.</p>
+            <span class="duration">35:00</span>
+          </div>
+          <div class="course-card hidden" data-video-id="OR20FwQ399s">
+            <img src="./day11.jpg" alt="Web Accessibility" class="thumbnail" />
+            <h3>Html Emmets and Css Box Sizing</h3>
+            <p>
+              Understanding html emmets shortcuts and css box sizing concept.
+            </p>
+            <span class="duration">26:15</span>
+          </div>
+          <div class="course-card hidden" data-video-id="To7vKjwf9rI">
+            <img src="./day12.jpg" alt="Web Accessibility" class="thumbnail" />
+            <h3>Hiding Html Elements</h3>
+            <p>
+              Understandingdifference between visibility, opacity and display.
+            </p>
+            <span class="duration">26:15</span>
+          </div>
+        </div>
+        <button id="show-more" class="show-more-btn">
+          <span>Show More</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-chevron-down"
+          >
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+      </section>
+
+      <section id="about" class="about-section">
+        <h2>About the Course</h2>
+        <p>
+          Our HTML & CSS Mastery course is designed to take you from beginner to
+          pro. With hands-on tutorials and in-depth video lessons, you'll be
+          building beautiful websites in no time!
+        </p>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="social-icons">
+        <a
+          href="https://www.youtube.com/your-channel"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="YouTube"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path
+              d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
+            ></path>
+            <polygon
+              points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"
+            ></polygon>
+          </svg>
+        </a>
+        <a
+          href="https://www.instagram.com/your-profile"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+        </a>
+        <a
+          href="https://twitter.com/your-profile"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Twitter"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path
+              d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+      <p>&copy; 2023 HTML & CSS Mastery. All rights reserved.</p>
+    </footer>
+
+    <div class="video-modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <iframe
+          width="560"
+          height="315"
+          src=""
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/your-fontawesome-kit.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
