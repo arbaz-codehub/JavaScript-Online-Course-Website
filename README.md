@@ -1,5 +1,7 @@
 # Online Course Website - HTML-CSS Mastery
 
+![Modern E-Courses Website](project7.png)
+
 ## Overview
 The Online Course Website is a web application designed to offer users a seamless learning experience for mastering HTML and CSS. Built using JavaScript, HTML, and CSS, this platform features a visually appealing user interface with responsive design and smooth navigation.
 
